@@ -1,3 +1,23 @@
 body {
-  background: #202629;
+    background: linear-gradient(45deg, #0b0627 0%, #4B0082 50%, #FF1493 100%);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #00fff2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
