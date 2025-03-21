@@ -1,6 +1,6 @@
 .weather.card .card-action {
     background: rgba(0, 0, 0, 0.7);
-    border-top: 2px solid #4169e1;
+    /* border-top: 2px solid #4169e1; */
     box-shadow: 0 0 30px #4169e1;
     padding: 24px;
     margin: 0 24px 24px 24px;
@@ -18,11 +18,17 @@
    
 }
 
+.weather.card .card-action a:hover {
+    color: #4169e1;
+    text-decoration: none;
+   
+}
 
-.weather.card .card-action:hover {
+
+/* .weather.card .card-action:hover {
     background: #4169e1;
     transition: all 0.3s ease;
-}
+} */
 
 .day-forecast {
     flex: 1;
@@ -54,7 +60,8 @@
         margin: 0;
         width: 100%;
         box-sizing: border-box;
-        border-radius: 0 0 16px 16px;
+        border-radius: 16px 16px 16px 16px;
+        
     }
 
     .weather.card .card-action a {
