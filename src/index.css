@@ -1,7 +1,10 @@
 body {
-    background: linear-gradient(45deg, #0b0627 0%, #4B0082 50%, #FF1493 100%);
-    background-size: 400% 400%;
-    animation: gradientBG 15s ease infinite;
+    background: linear-gradient(135deg, 
+        #1d3557 0%,
+        #457b9d 50%,
+        rgba(241, 250, 238, 0.1) 100%);
+    background-size: 200% 200%;
+    animation: gradientBG 20s ease infinite;
     font-family: 'Helvetica Neue', sans-serif;
     color: #00fff2;
     margin: 0;

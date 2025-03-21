@@ -4,34 +4,7 @@ import Weather from "./Weather";
 
 function WeatherInfo({ location, meteoDuJour }) {
 
-  console.log(meteoDuJour);
-  
-  // const [temperature, setTemperature] = useState();
-  // const [chargement, setChargement] = useState(true);
-  // const [erreur, setErreur] = useState(null);
-
-  // useEffect(() => {
-  //   fetch(
-  //    `https://api.weatherapi.com/v1/forecast.json?key=${import.meta.env.VITE_WEATHER_API_KEY}&q=Lyon&days=5&aqi=yes&alerts=no`
-  //   )
-  //     .then((response) => {
-  //       if (!response.ok) {
-  //         throw new Error("Erreur sa marche pas ");
-  //       }
-  //       return response.json();
-  //     })
-  //     .then((data) => {
-  //       setTemperature(data);
-  //       setChargement(false);
-  //     })
-  //     .catch((erreur) => {
-  //       setErreur(erreur.message);
-  //       setChargement(false);
-  //     });
-  // }, []);
-
-  // if (chargement) return <div>sa charge patiente mec</div>;
-  // if (erreur) return <div>Erreur: {erreur}</div>;
+ 
 
   return (
     <div className="card-content white-text">

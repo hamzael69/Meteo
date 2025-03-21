@@ -1,8 +1,8 @@
 .card {
-    background: rgba(0, 0, 0, 0.6);
-    border: 2px solid #ff1493;
-    box-shadow: 0 0 20px #ff1493,
-                inset 0 0 10px #4169e1;
+    background: rgba(29, 53, 87, 0.8);
+    border: 2px solid #f1faee;
+    box-shadow: 0 0 20px rgba(241, 250, 238, 0.2),
+                inset 0 0 10px rgba(69, 123, 157, 0.3);
     backdrop-filter: blur(20px) saturate(180%);
     border-radius: 20px;
     margin: 24px auto;
@@ -25,15 +25,15 @@
     padding: 12px 16px;
     font-size: 15px;
     border: none;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(69, 123, 157, 0.9);
     backdrop-filter: blur(10px);
-    border: 2px solid #4169e1;
+    border: 2px solid #f1faee;
     border-radius: 10px;
     width: 300px;
-    color: #fff;
-    transition: all 0.2s ease;
-    box-shadow: 0 0 10px #4169e1;
-    text-shadow: 0 0 5px #4169e1;
+    color: #f1faee;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(241, 250, 238, 0.2);
+    text-shadow: none;
 }
 
 .search-input::placeholder {
@@ -42,32 +42,32 @@
 
 .search-input:focus {
     outline: none;
-    /* background: #007AFF; */
+    transform: scale(1.02);
     box-shadow: 0 0 0 2px black;
 }
 
 .search-button {
     padding: 12px 24px;
-    background: #ff1493;
+    background: #457b9d;
     backdrop-filter: blur(4px);
-    color: #ffffff;
+    color: #f1faee;
     border: n.3;
     border-radius: 10px;
     border-radius: 10px;
     font-size: 15px;
     font-weight: bold;
-    transition: all 0.2s ease;
-    box-shadow: 0 0 15px #ff1493;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(69, 123, 157, 0.3);
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 2px 2px #4169e1.5;
+    text-shadow: none;
 }
 
 .search-button:hover {
-    background: #4169e1;
-    color: #ffffff;
-    box-shadow: 0 0 20px #4169e1;
-    text-shadow: 2px 2px #ff1493;
+    background: #1d3557;
+    color: #f1faee;
+    box-shadow: 0 0 20px rgba(29, 53, 87, 0.4);
+    transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {
